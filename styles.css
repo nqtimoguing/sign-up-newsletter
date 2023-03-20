@@ -1,0 +1,67 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+h4 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container {
+    width: 60%;
+    background-color: lightseagreen;
+    margin: 100px auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 50px 0;
+    max-width: 75%;
+    min-width: 20em;
+    overflow: hidden;
+}
+
+fieldset {
+    border: none;
+    margin: 0 auto;
+}
+
+input {
+    margin-bottom: 15px;
+    border: none;
+    padding: 8px 50px 8px 5px;
+}
+    /*Remove the default border*/
+    input:focus {
+        outline: none;
+    }
+/*Customize a checkbox*/
+.checkbox {
+    accent-color: lightgreen;
+    /* filter: hue-rotate(60deg);  */
+    transform: scale(1.5); /* Change the size of a checkbox */
+    /*  margin: 5px;   /*Margin for the text label*/
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px 30px;
+    background-color: #fff;
+    border: none;
+    margin-top: 15px;
+    border-radius: 3px;
+    text-indent: 2px;
+    color: dimgrey;
+}
+
+    button:focus {
+        opacity: .8;
+        background-color: lightgreen;
+    }
